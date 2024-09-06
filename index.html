@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <div class="bodyContainer">
+            <h1>Currency Convertor App</h1>
+            <form>
+                <div class="fromPart">
+                    <label class="text">From:</label>
+                    <select class="display">
+                        <option value="1">INR- India Rupee</option>
+                        <option value="2">USD - US Dollar</option>
+                        <option value="3">AUD - Australian Dollar</option>
+                        <option value="4">CAD - Canada Dollar</option>
+                        <option value="5">EUR - Euro Member Countries</option>
+                        <option value="6">SGD - Singapore Dollar</option>
+                    </select>
+                </div>
+
+                <div class="arrow">
+                    <img class="arrow_img" src="./assets/arrow-up.png" alt="arrow">
+                    <img class="arrow_img" src="./assets/arrow-down.png" alt="arrow">
+                </div>
+                <div class="toPart">
+                    <label class="text">To:</label>
+                    <select class="display">
+                        <option value="1">INR- India Rupee</option>
+                        <option value="2">USD - US Dollar</option>
+                        <option value="3">AUD - Australian Dollar</option>
+                        <option value="4">CAD - Canada Dollar</option>
+                        <option value="5">EUR - Euro Member Countries</option>
+                        <option value="6">SGD - Singapore Dollar</option>
+                    </select>
+                </div>
+
+                <div class="btnPart">
+                    <label class="text">Value to Convert</label>
+                    <input class="display" type="number" placeholder="Converted value is..."/> 
+
+                    <div class="btn">
+                        <input class="btn1" type="submit" value="Calculate" />
+                        <input class="btn2" type="reset" value="Clear" />
+                    </div>
+                </div>
+
+                <div class="answerPart">
+                    <label>Answer:</label>
+
+                    <label>show calculated answer here</label>
+
+                    <label>show 1usd = 86inr</label>
+
+                    <label>show 1inr = 0.012usd</label>
+
+                    <label><!-- show change from USD to INR: in % --></label>
+                </div>
+            </form>
+    </div>
+
+</body>
+<script src="./main.js" type="text/javascript"></script>
+<script src="./add.js" type="text/javascript"></script>
+</html>
